@@ -1,0 +1,22 @@
+
+tbody, thead {
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 65vh;
+    width: 100%;
+}
+
+tbody tr, thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    overflow-x: hidden;
+}
+
+.email {
+    overflow-x: auto;
+}
+
+
+
